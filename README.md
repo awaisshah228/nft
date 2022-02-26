@@ -1,6 +1,6 @@
 # MetaMask Login with MERN(JS)
 ## Demo https://nft-task1.herokuapp.com/
-Must have metamask installed . 
+Must have metamask extension  installed on Chrome Browser. ()incompatible with mobile)
 
 # Specification
 It is just simple MetaMask Implelmention not including refresh token where user click on MetaMask button and redirected to MetaMask Extension.
