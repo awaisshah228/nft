@@ -101,9 +101,9 @@ export const Profile = ({ auth, onLoggedOut }) => {
 	   
 
 	  </div>
-	  <div className="flex justify-center mt-5 gap-24"> <h1>
-         <p className="font-bold text-center mt-3">{username ? username : "Unnamed"}</p>
-         <p className=" inline-block px-6 py-2 border-2 mt-3 border-gray-200 text-gray-400 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"> {user ? `${user.publicAddress.slice(0,6)}...${user.publicAddress.slice(-4)}` : "Hi"}</p>
+	  <div className="flex justify-center mt-5 gap-32"> <h1>
+         <p className="font-bold text-center mb-5  mx-auto mt-3">{username ? username : "Unnamed"}</p>
+         <p className=" w-32 justify-self-center text-center px-6 py-2 border-2 mt-3 border-gray-200 text-gray-400 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out m-auto"> {user ? `${user.publicAddress.slice(0,6)}...${user.publicAddress.slice(-4)}` : "Hi"}</p>
          <p className="font-bold text-center mt-3">Joined on {user ? user.joined : "Hi"}</p>
       </h1></div>
       {/* <p>
