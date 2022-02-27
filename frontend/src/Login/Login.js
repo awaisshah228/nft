@@ -115,7 +115,7 @@ export const Login = ({ onLoggedIn })=> {
       <p className="text-muted">
         Connect with one of our available wallet providers or create a new one
       </p>
-      <div className="w-6/12 m-auto  shadow-md rounded-xl flex flex-col divide-y justify-center content-center mt-5 ">
+      <div className="md:w-6/12 w-full  m-auto  shadow-md rounded-xl flex flex-col divide-y justify-center content-center mt-5 ">
         <button className="flex justify-between p-4 hover:shadow-2xl " onClick={handleClick}>
           <div className="flex justify-center content-center gap-3">
             <div className="h-10 w-10">

@@ -6,6 +6,7 @@ const jwt =require ('jsonwebtoken');
 const  config  =require('../config');
 const User = require("../models/userModel");
 
+
 const authCtrl={
 	create: (req, res, next) => {
 		const { signature, publicAddress } = req.body;

@@ -11,13 +11,13 @@ const auth = async (req, res, next) => {
         
         let decoded = await jwtt.verify(token,jwtSecret)
         
-        // console.log(decoded)
+        console.log(decoded)
         // if(!decoded) return res.status(400).json({msg: "Invalid Authentication."})
 
        
         
-        req.user = decoded
-        console.log(req.user)
+        // req.user = decoded
+        // console.log(req.user)
         next()
     } catch (err) {
         return res.status(500).json({msg: err.message})

@@ -113,17 +113,17 @@ export const Profile = ({ auth, onLoggedOut }) => {
         My username is {username ? <pre>{username}</pre> : "not set."} My
         publicAddress is <pre>{publicAddress}</pre>
       </div> */}
-	  <div class="my-4 p-auto flex content-center justify-center items-center  ">
+	  <div class="my-4 p-auto flex content-center justify-center items-center flex-col md:flex-row gap-6  ">
       <label class=" mr-4 text-gray-700 text-sm font-bold  " htmlFor="username">
         Change Username
       </label>
       <input class="shadow appearance-none border rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username" name='username' onChange={handleChange}/>
-	  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-8" disabled={loading} onClick={handleSubmit}>
+	  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full md:ml-8" disabled={loading} onClick={handleSubmit}>
   Submit
 </button>
     </div>
 
-	<div className="flex">
+	<div className="flex justify-center p-auto">
 	<button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full m-auto" disabled={loading} onClick={onLoggedOut}>
   Logout
 </button>
