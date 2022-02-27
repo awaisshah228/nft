@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# nft ok
-# 
-=======
 # MetaMask Login with MERN(JS)
 ## Demo https://nft-task1.herokuapp.com/
 Must have metamask extension  installed on Chrome Browser. ()incompatible with mobile)
@@ -18,4 +14,5 @@ https://github.com/amaurym/login-with-metamask-demo
 ### Here is other refrence project 
 https://github.com/TheBourneOldTomato/scratchcollective
 
->>>>>>> 8bd9a007ae2c51764452fea0c7d75931961c5af1
+https://github.com/awaisshah228/nft/blob/main/nft.gif
+![Alt Text](https://github.com/awaisshah228/nft/blob/main/nft.gif)
